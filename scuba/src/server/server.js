@@ -29,6 +29,4 @@ app.get("/divelist/:id?", cors(), async (req, res) => {
     }
 })
 
-app.listen(process.env.PORT || 4000, () =>
-  console.log(`Listening on port ${process.env.PORT || 4000}!`)
-);
+app.listen(process.env.SERVER || 4000, () => console.log(`Listening on port ${process.env.SERVER || 4000}!`));
