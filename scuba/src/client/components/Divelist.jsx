@@ -84,11 +84,11 @@ export default function Divelist() {
                 // console.log(column)                
                 return (
                     <TableRow hover role="checkbox" tabIndex={-1} key={column.div_id}>
-                  {columns.map((column, key, value) => {  
+                  {/* {columns.map((column, key, value) => {  
                        
                       console.log(value)               
                     return (
-                      <>
+                      <> */}
                       <TableCell key={column.dive_num}>
                         {column.dive_num}
                       </TableCell>
@@ -161,9 +161,10 @@ export default function Divelist() {
                       <TableCell key={column.dive_computer_used}>
                        {column.dive_computer_used}
                       </TableCell>
-                      </>                      
+                      {/* </>                      
                     );
-                  })}
+                  } */}
+                  {/* )} */}
                 </TableRow>
               );
             })}
