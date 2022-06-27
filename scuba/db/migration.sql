@@ -59,6 +59,16 @@ INSERT INTO dive_number(dive_num, div_date, div_location, city, us_state,
     '2nd Cert Dive', 'Aluminum', 32, 0, 0, 0, 0, 12, 'Shorty', 5-4-3, 'No', 'No', 'Yes', 'Freshwater', 'Shore',
     10, 75, 'Yes', 1);
 
+INSERT INTO dive_number(dive_num, div_date, div_location, city, us_state,
+    div_buddy, div_activity, dive_tank, tank_air, tank_starting_pressure,
+    tank_starting_volume, tank_endinging_pressure, tank_endinging_volume,
+    dive_weight, dive_suit_type, dive_suit_thickness,
+    dive_hood, dive_gloves, dive_boots, dive_water_type, dive_entry,
+    dive_visibilty, dive_water_temperature, dive_computer_used,
+    div_id) VALUES (3, '2009-05-29', 'Lucys Lake', 'Savannah', 'GA', 'unknown',
+    '3rd Cert Dive', 'Aluminum', 32, 0, 0, 0, 0, 12, 'Shorty', 5-4-3, 'No', 'No', 'Yes', 'Freshwater', 'Shore',
+    10, 75, 'Yes', 1);
+
 
 
 
