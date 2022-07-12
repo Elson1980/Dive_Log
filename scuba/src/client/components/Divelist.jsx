@@ -54,11 +54,17 @@ export default function Divelist() {
       getDives();  
     }, []);
     
-    const getDives = () => {
-        axios.get(`${url}`).then((getDives) => {
-            setColumns(getDives.data)
-      }) 
+  const getDives = () => {
+      axios.get(`${url}`).then((getDives) => {
+          setColumns(getDives.data)
+    }) 
   }
+
+  const addDives = () => {
+    axios.post(`${url}`).then((getDives) => {
+        setColumns(getDives.data)
+  }) 
+}
 
   return (
     <Paper className={classes.root}>
